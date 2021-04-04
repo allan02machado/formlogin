@@ -1,24 +1,41 @@
 body {
-  margin: 0;
+  margin: 0px;
   min-height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  color: crimson;
+  font-size: 30px;
+  font-family: Bangers;
+  background-color: darkgray;
 }
 
 form {
+  border: 4px solid rgb(0, 0, 0);
+  box-shadow: crimson 5px 5px 5px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 25px;
   display: flex;
   flex-flow: column;
+  background-image: url(fundo.jpg);
+  background-size: cover;
+  min-height: 350px;
+  min-width: 300px;
 }
 
 input,
 button,
 a {
+  display: flex;
   outline: none;
+  color: crimson;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 form .linha {
   display: flex;
   flex-flow: row; /* column = form vertical, row = form horizontal */
+  text-align: center;
+  margin-top: 25px;
 }
